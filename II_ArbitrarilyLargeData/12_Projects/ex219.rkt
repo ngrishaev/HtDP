@@ -5,8 +5,8 @@
 (require 2htdp/image)
 
 (define TILE-SIZE 10)
-(define TILES-HEIGHT 10)
-(define TILES-WIDTH 10)
+(define TILES-HEIGHT 15)
+(define TILES-WIDTH 15)
 (define SCENE-HEIGHT (* TILES-HEIGHT TILE-SIZE))
 (define SCENE-WIDTH (* TILES-WIDTH TILE-SIZE))
 (define SNAKE-SEGMENT-RADIUS (/ TILE-SIZE 2))
